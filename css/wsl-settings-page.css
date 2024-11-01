@@ -1,0 +1,95 @@
+#wsl-configure-one-click {
+    background-color:           #00aadc;
+    color:                      #ffffff;
+
+    font-size:                  20px;
+    font-weight:                500;
+
+    border: 1px solid #0087BE;
+    border-top-left-radius:     4px;
+    border-top-right-radius:    4px;
+    border-bottom-left-radius:  4px;
+    border-bottom-right-radius: 4px;
+
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+
+    cursor: pointer;
+}
+
+#wsl-configure-one-click:hover {
+    border-color: #006199;
+    border-bottom-width: 2px;
+}
+
+#wsl-configure-one-click:active::after {
+    content: '\21bb';
+    color: #ffffff;
+    margin: 5px;
+
+    display: inline-block;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+#wsl-configure-one-click:focus::after {
+    content: '\21bb';
+    color: #ffffff;
+    margin: 5px;
+
+    display: inline-block;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+#collapsible-button {
+    background-color: #0084b2;
+    color:            #ffffff;
+    cursor:           pointer;
+    padding:          18px;
+    width:            100%;
+    border:           none;
+    text-align:       left;
+    outline:          none;
+    font-size:        15px;
+}
+
+#collapsible-button:after {
+    content:     '\002B';
+    color:       #ffffff;
+    font-weight: bold;
+    float:       right;
+    margin-left: 5px;
+}
+
+#collapsible-button:hover, .collapsible-button-active {
+    background-color: #004867;
+}
+
+#collapsible-content {
+    padding:  0 18px;
+    display:  none;
+    overflow: hidden;
+}
+
+#plugin-succesfull-install-notice::before {
+    content:               '';
+    display:               inline-block;
+    width:                 15px;
+    height:                15px;
+    -moz-border-radius:    7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius:         7.5px;
+    background-color:      #00d518;
+    margin-right: 10px;
+    vertical-align: bottom;
+}

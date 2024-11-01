@@ -1,0 +1,271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webshoplogin.com Woocommerce Plugin\n"
+"POT-Creation-Date: 2018-11-28 16:59+0100\n"
+"PO-Revision-Date: 2018-11-28 17:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wsl-plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wsl-installation.php:73 wsl-installation.php:77
+msgid "De plugin is succesvol geactiveerd."
+msgstr "The plugin has been successfully activated."
+
+#: wsl-installation.php:73
+#, php-format
+msgid ""
+"Er is een e-mail gestuurd naar uw e-mailadres( %s ) om uw nieuwe "
+"WebshopLogin account te activeren."
+msgstr ""
+"An email has been sent to your email address ( %s) to activate your new "
+"WebshopLogin account."
+
+#: wsl-installation.php:77
+msgid "De activatie is succesvol verlopen."
+msgstr "The activation went successfully"
+
+#: wsl-installation.php:97 wsl-installation.php:102 wsl-installation.php:111
+#: wsl-installation.php:123 wsl-installation.php:129
+msgid "WebshopLogin installatie is mislukt."
+msgstr "WebshopLogin installation failed."
+
+#: wsl-installation.php:97 wsl-installation.php:123
+msgid ""
+"Er is iets fout gegaan tijdens de activatie van de plugin. Probeer op een "
+"later tijdstip de plugin te activeren via de plugin instellingen."
+msgstr ""
+"Something went wrong during the activation of the plugin. Try to activate "
+"the plugin at a later time using the plugin settings."
+
+#: wsl-installation.php:102
+msgid ""
+"Er bestaat al een applicatie met deze URL op Webshoplogin.com, login op uw "
+"<a target=\"_blank\" href=\"https://developers.webshoplogin.com/dashboard"
+"\">WebshopLogin account</a> en vul uw API key & secret handmatig in op de "
+"instellingen pagina van de WebshopLogin plugin."
+msgstr ""
+"An application with this URL already exists on Webshoplogin.com, login to "
+"your < a target = \"_blank\" href = \"https://developers.webshoplogin.com/"
+"dashboard\" > Webshoplogin account </a> and enter your API key & secret "
+"manually on the settings page of the WebshopLogin plugin."
+
+#: wsl-installation.php:111
+#, php-format
+msgid ""
+"Er bestaat al een WebshopLogin account met uw e-mailadres( %s ), u krijgt "
+"een e-mail met verdere instructies."
+msgstr ""
+"There is already a WebshopLogin account with your email address ( %s), you "
+"will receive an email with further instructions."
+
+#: wsl-installation.php:129
+msgid ""
+"Er is iets fout gegaan tijdens de activatie van de plugin. Activeer de "
+"plugin via het instellingen scherm door handmatig de API key & secret in te "
+"vullen uit uw WebshopLogin account."
+msgstr ""
+"Something went wrong during the activation of the plugin. Activate the "
+"plugin via the settings screen by manually completing the API key & secret "
+"from your WebshopLogin account."
+
+#: wsl-javascript.php:23
+msgid ""
+"Helaas. Er ging iets fout tijdens het inloggen. Probeer het later opnieuw!"
+msgstr "Unfortunately, something went wrong while logging in. Try again later!"
+
+#: wsl-javascript.php:24
+msgid ""
+"Er bestaat al een gebruiker met dit e-mail adres, om zeker te weten dat jij "
+"dit bent moet je eerst je e-mailadres valideren in ShopLogin"
+msgstr ""
+"There is already a user with this e-mail address, to be sure this is your "
+"account you must first validate your e-mail address in ShopLogin"
+
+#: wsl-javascript.php:25
+msgid ""
+"Helaas. Er ging iets fout tijdens het inloggen. Er was geen account "
+"informatie beschikbaar."
+msgstr ""
+"Unfortunately, something went wrong while logging in. There was no account "
+"information available."
+
+#: wsl-plugin.php:29
+msgid "Om WebshopLogin te kunnen gebruiken is WooCommerce vereist, "
+msgstr "To be able to use WebshopLogin, WooCommerce is required,"
+
+#: wsl-plugin.php:29
+msgid "installeer WooCommerce"
+msgstr "install WooCommerce"
+
+#: wsl-plugin.php:30
+msgid ""
+"Er is een actieve WooCommerce installatie vereist om de WebshopLogin Single "
+"Sign On plug-in te laten werken. Installeer de WooCommerce plug-in, hierdoor "
+"wordt WebshopLogin automatisch geactiveerd."
+msgstr ""
+"An active WooCommerce installation is required for the WebshopLogin Single "
+"Sign On plug-in to work. Install the WooCommerce plug-in, which "
+"automatically activates WebshopLogin."
+
+#: wsl-plugin.php:145 wsl-settings-page.php:29 wsl-settings-page.php:83
+msgid "Instellingen"
+msgstr "Settings"
+
+#: wsl-plugin.php:146
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: wsl-plugin.php:156
+msgid ""
+"<a href=\"admin.php?page=wsl-login\">Om de WebshopLogin plugin te activeren "
+"moeten eerst de API key & secret worden ingevuld.</a>"
+msgstr ""
+"<a href=\"admin.php?page=wsl-login\">To activate the WebshopLogin plugin, "
+"the API key & secret must first be entered.</a>"
+
+#: wsl-settings-page.php:17
+msgid "API key of secret is niet geldig"
+msgstr "API key or secret is not valid"
+
+#: wsl-settings-page.php:21 wsl-settings-page.php:48
+msgid "Plugin is geactiveerd"
+msgstr "Plugin is activated"
+
+#: wsl-settings-page.php:30 wsl-settings-page.php:82
+msgid "WebshopLogin"
+msgstr "WebshopLogin"
+
+#: wsl-settings-page.php:31
+msgid "Knoppen"
+msgstr "Buttons"
+
+#: wsl-settings-page.php:43
+msgid "Installeer WebshopLogin Single Sign On"
+msgstr "Install WebshopLogin Single Sign On"
+
+#: wsl-settings-page.php:55
+msgid "Geavanceerde instellingen"
+msgstr "Advanced Settings"
+
+#: wsl-settings-page.php:61
+msgid "Opslaan"
+msgstr "Save"
+
+#: wsl-settings-page.php:106
+msgid "API instellingen"
+msgstr "API settings"
+
+#: wsl-settings-page.php:113
+msgid "WebshopLogin API key & secret"
+msgstr "WebshopLogin API secret"
+
+#: wsl-settings-page.php:126
+msgid "WebshopLogin API key"
+msgstr "WebshopLogin API key"
+
+#: wsl-settings-page.php:139
+msgid "WebshopLogin API secret"
+msgstr "WebshopLogin API secret"
+
+#: wsl-settings-page.php:152
+msgid "Plugin instellingen"
+msgstr "Plugin settings"
+
+#: wsl-settings-page.php:159
+msgid "WebshopLogin plugin aanzetten"
+msgstr "Enable WebshopLogin plugin"
+
+#: wsl-settings-page.php:172
+msgid "Knop instellingen"
+msgstr "Button settings"
+
+#: wsl-settings-page.php:179
+msgid "WebshopLogin shortcode om een extra loginknop weer te geven"
+msgstr "WebshopLogin shortcode to show an extra loginbutton"
+
+#: wsl-settings-page.php:190
+msgid "WebshopLogin shortcode om een extra registreer knop weer te geven"
+msgstr "WebshopLogin shortcode to show an extra register button"
+
+#: wsl-settings-page.php:220
+msgid ""
+"Om de WebshopLogin plugin te activeren moeten de API key & secret worden "
+"ingevuld. Deze kunnen worden gevonden in de <a href=\"#\" onclick="
+"\"clickWslTab()\">Webshoplogin tab</a> of op <a href=\"https://developers."
+"webshoplogin.com/dashboard\" target=\"_blank\">https://developers."
+"webshoplogin.com</a>"
+msgstr ""
+"To activate the WebshopLogin plugin, the API key & secret must be entered. "
+"These can be found in the <a href=\"#\" onclick="
+"\"clickWslTab()\">WebshopLogin tab</a> or at <a href=\"https://developers."
+"webshoplogin.com/dashboard\" target=\"_blank\">https://developers."
+"webshoplogin.com</a>"
+
+#: wsl-settings-page.php:230
+msgid "Ongeldig"
+msgstr "Invalid"
+
+#: wsl-settings-page.php:230
+msgid "Geldig"
+msgstr "Valid"
+
+#: wsl-settings-page.php:254
+msgid ""
+"Kopieer de shortcode en plak deze op een pagina om de Webshoplogin inlogknop "
+"weer te geven."
+msgstr ""
+"Copy the shortcode and paste it on the desired page to display an additional "
+"Webshoplogin loginbutton."
+
+#: wsl-settings-page.php:261
+msgid ""
+"Kopieer de shortcode en plak deze op een pagina om de Webshoplogin "
+"registreer knop weer te geven."
+msgstr ""
+"Copy the shortcode and paste it on the desired page to display an additional "
+"Webshoplogin register button."
+
+#. Plugin Name of the plugin/theme
+msgid "WebshopLogin Single Sign On"
+msgstr "WebshopLogin Single Sign On"
+
+#. Description of the plugin/theme
+msgid ""
+"Laat je bezoekers inloggen met één account met hulp van hun bestaande "
+"accounts van bijvoorbeeld: Facebook, Paypal, Amazon, of Google of een van de "
+"vele aangesloten webwinkels."
+msgstr ""
+"Enable your visitors to login with one account by using one of their "
+"existing accounts at Facebook, PayPal, Amazon or Google, or from one of the "
+"connected webshops."
+
+#. Author of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.webshoplogin.com"
+msgstr "https://www.webshoplogin.com"
+
+#~ msgid "Plugin instellingen zijn opgeslagen"
+#~ msgstr "Plugin settings have been saved"
+
+#~ msgid "WebshopLogin.com WooCommerce Plugin"
+#~ msgstr "WebshopLogin.com WooCommerce Plugin"
+
+#~ msgid "webshoplogin.com"
+#~ msgstr "webshoplogin.com"
+
+#~ msgid "Settings"
+#~ msgstr "Instellingen"
